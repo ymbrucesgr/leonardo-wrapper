@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: leonardo-server
+  profiles:
+    active: dev
+
+leonardo-ai:
+    api-key:
+
+springdoc:
+  swagger-ui:
+    path: /api
+    enabled: true

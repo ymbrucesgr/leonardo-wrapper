@@ -1,0 +1,11 @@
+server:
+  port: 7010
+#  servlet:
+#    context-path: /api
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_URL:mongodb://localhost:27017/?retryWrites=false}
+      database: leonardo_generated_result
+      auto-index-creation: true
